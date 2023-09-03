@@ -56,12 +56,18 @@ body {
 .bottom {
     display: flex;
     gap: 30px;
+    
 }
 
 .button {
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    
     border: 1px solid white;
     cursor: pointer;
+    transition: 0.2s ease;
+}
+.botton:hover{
+    scale: 1.2;
 }
